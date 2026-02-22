@@ -1,0 +1,31 @@
+control_id,control_name,control_description,control_domain
+CTL-001,MFA Enforcement,All privileged accounts must use multi-factor authentication.,Access Management
+CTL-002,Least Privilege Access,Users are granted minimum permissions required for their role.,Access Management
+CTL-003,Access Review Cycle,Quarterly review of all user access rights and entitlements.,Access Management
+CTL-004,Privileged Access Workstation,PAW must be used for all administrative sessions on critical systems.,Access Management
+CTL-005,Patch Cadence — Critical,Critical patches must be applied within 7 days of release.,Patch Management
+CTL-006,Patch Cadence — High,High-severity patches applied within 30 days of release.,Patch Management
+CTL-007,Patch Approval Process,All patches must pass change approval before deployment to production.,Patch Management
+CTL-008,End-of-Life System Tracking,EOL systems tracked in CMDB with decommission plans maintained and reviewed quarterly.,Patch Management
+CTL-009,Centralised Log Aggregation,All systems must forward logs to the central SIEM platform.,Logging & Monitoring
+CTL-010,Alert Threshold Tuning,Alert rules reviewed quarterly to reduce false positives and prevent alert fatigue.,Logging & Monitoring
+CTL-011,Log Retention Policy,Logs retained for minimum 12 months in accordance with compliance requirements.,Logging & Monitoring
+CTL-012,Uptime Monitoring,All production services monitored with maximum 5-minute health check intervals.,Logging & Monitoring
+CTL-013,Firewall Rule Review,Firewall rules reviewed every 6 months for necessity and least-privilege compliance.,Network Security
+CTL-014,Network Segmentation,"Production, staging, and development networks must be isolated at layer 3.",Network Security
+CTL-015,Intrusion Detection,IDS signatures updated weekly and all alerts triaged within 4 hours.,Network Security
+CTL-016,Remote Access Control,VPN access restricted to approved endpoints with valid certificates.,Network Security
+CTL-017,Backup Verification,Backup integrity verified monthly via restore test to isolated environment.,Backup & Recovery
+CTL-018,Offsite Backup Storage,Critical backups replicated to a geographically separate site daily.,Backup & Recovery
+CTL-019,RTO/RPO Documentation,Recovery Time and Point Objectives documented and reviewed annually for all critical systems.,Backup & Recovery
+CTL-020,Baseline Configuration,Approved hardening baselines applied to all new system builds before production promotion.,Configuration Management
+CTL-021,Configuration Drift Detection,Automated scanning detects and alerts on configuration drift within 24 hours.,Configuration Management
+CTL-022,Asset Inventory Accuracy,Asset register updated within 24 hours of any hardware or software change.,Configuration Management
+CTL-023,Secrets Management,No credentials stored in source code or config files; all secrets stored in approved vault.,Configuration Management
+CTL-024,Change Freeze Windows,No changes permitted during business-critical periods without CAB emergency approval.,Change Control
+CTL-025,CAB Approval Mandatory,All standard changes require Change Advisory Board sign-off before implementation.,Change Control
+CTL-026,Rollback Plan Required,Every change request must include a tested rollback procedure before CAB submission.,Change Control
+CTL-027,Vulnerability Scan Cadence,Authenticated vulnerability scans run weekly on all in-scope assets.,Vulnerability Management
+CTL-028,CVE Triage SLA,All CVEs triaged and assigned to owning team within 48 hours of publication.,Vulnerability Management
+CTL-029,Penetration Test Annual,Annual penetration test covering all external-facing systems by approved third party.,Vulnerability Management
+CTL-030,Risk Acceptance Process,Unmitigated vulnerabilities require formal risk acceptance signed off by CISO.,Vulnerability Management
