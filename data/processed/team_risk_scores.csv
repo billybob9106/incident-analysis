@@ -1,0 +1,21 @@
+team,incident_count,severity_score,open_ri_count,control_gap_exposure,total_risk_score
+Service Desk,15,32,16,8,159
+IT Operations,12,28,18,9,158
+Monitoring & Observability,14,30,12,6,134
+Cloud Platform,10,24,13,8,129
+Release Engineering,8,20,9,8,107
+Backup & Recovery,8,17,8,10,106
+Vulnerability Management,7,15,9,9,100
+Security,7,17,8,6,89
+Identity & Access Management,7,15,4,9,85
+Networking,6,16,8,3,74
+Data Engineering,7,15,8,3,73
+Architecture,8,20,4,3,72
+Change Management,6,15,4,5,68
+Database Administration,5,12,7,4,66
+DevOps,5,11,6,4,61
+Infrastructure,5,9,6,4,57
+Middleware,7,14,3,1,48
+Application Support,4,9,3,3,43
+Compliance,5,9,3,2,40
+End User Computing,4,9,3,1,35

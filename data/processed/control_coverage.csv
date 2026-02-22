@@ -1,0 +1,31 @@
+,control_id,control_name,control_description,control_domain,ri_count,has_coverage
+0,CTL-001,MFA Enforcement,All privileged accounts must use multi-factor authentication.,Access Management,15,True
+1,CTL-002,Least Privilege Access,Users are granted minimum permissions required for their role.,Access Management,14,True
+2,CTL-003,Access Review Cycle,Quarterly review of all user access rights and entitlements.,Access Management,0,False
+3,CTL-004,Privileged Access Workstation,PAW must be used for all administrative sessions on critical systems.,Access Management,13,True
+4,CTL-005,Patch Cadence — Critical,Critical patches must be applied within 7 days of release.,Patch Management,0,False
+5,CTL-006,Patch Cadence — High,High-severity patches applied within 30 days of release.,Patch Management,0,False
+6,CTL-007,Patch Approval Process,All patches must pass change approval before deployment to production.,Patch Management,14,True
+7,CTL-008,End-of-Life System Tracking,EOL systems tracked in CMDB with decommission plans maintained and reviewed quarterly.,Patch Management,17,True
+8,CTL-009,Centralised Log Aggregation,All systems must forward logs to the central SIEM platform.,Logging & Monitoring,30,True
+9,CTL-010,Alert Threshold Tuning,Alert rules reviewed quarterly to reduce false positives and prevent alert fatigue.,Logging & Monitoring,13,True
+10,CTL-011,Log Retention Policy,Logs retained for minimum 12 months in accordance with compliance requirements.,Logging & Monitoring,13,True
+11,CTL-012,Uptime Monitoring,All production services monitored with maximum 5-minute health check intervals.,Logging & Monitoring,0,False
+12,CTL-013,Firewall Rule Review,Firewall rules reviewed every 6 months for necessity and least-privilege compliance.,Network Security,14,True
+13,CTL-014,Network Segmentation,"Production, staging, and development networks must be isolated at layer 3.",Network Security,9,True
+14,CTL-015,Intrusion Detection,IDS signatures updated weekly and all alerts triaged within 4 hours.,Network Security,6,True
+15,CTL-016,Remote Access Control,VPN access restricted to approved endpoints with valid certificates.,Network Security,0,False
+16,CTL-017,Backup Verification,Backup integrity verified monthly via restore test to isolated environment.,Backup & Recovery,0,False
+17,CTL-018,Offsite Backup Storage,Critical backups replicated to a geographically separate site daily.,Backup & Recovery,14,True
+18,CTL-019,RTO/RPO Documentation,Recovery Time and Point Objectives documented and reviewed annually for all critical systems.,Backup & Recovery,19,True
+19,CTL-020,Baseline Configuration,Approved hardening baselines applied to all new system builds before production promotion.,Configuration Management,0,False
+20,CTL-021,Configuration Drift Detection,Automated scanning detects and alerts on configuration drift within 24 hours.,Configuration Management,36,True
+21,CTL-022,Asset Inventory Accuracy,Asset register updated within 24 hours of any hardware or software change.,Configuration Management,14,True
+22,CTL-023,Secrets Management,No credentials stored in source code or config files; all secrets stored in approved vault.,Configuration Management,31,True
+23,CTL-024,Change Freeze Windows,No changes permitted during business-critical periods without CAB emergency approval.,Change Control,11,True
+24,CTL-025,CAB Approval Mandatory,All standard changes require Change Advisory Board sign-off before implementation.,Change Control,0,False
+25,CTL-026,Rollback Plan Required,Every change request must include a tested rollback procedure before CAB submission.,Change Control,19,True
+26,CTL-027,Vulnerability Scan Cadence,Authenticated vulnerability scans run weekly on all in-scope assets.,Vulnerability Management,19,True
+27,CTL-028,CVE Triage SLA,All CVEs triaged and assigned to owning team within 48 hours of publication.,Vulnerability Management,31,True
+28,CTL-029,Penetration Test Annual,Annual penetration test covering all external-facing systems by approved third party.,Vulnerability Management,31,True
+29,CTL-030,Risk Acceptance Process,Unmitigated vulnerabilities require formal risk acceptance signed off by CISO.,Vulnerability Management,16,True
